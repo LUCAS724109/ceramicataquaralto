@@ -1,0 +1,170 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Cerâmica Taquaralto - Empresa</title>
+
+    <style>
+
+      #menu-inovacao::after {
+        width: 100%;
+      }
+
+    </style>
+             
+  </head>
+  <body>
+      <header>
+          <div class="logotipos">
+  
+              <a href="index.html">
+                  <img src="IMG/Logo-site Ceramica Taquaralto.png" alt="Logo Cêramica Taquaralto" class="logo-ceramicataquaralto">
+              </a>
+          </div>
+          <nav class="navigation-pc">
+              <ul class="nav-list">
+                  <li class="nav-item"><a class="nav-link" href="index.html" id="menu-inicio">Início</a></li>
+                  <li class="nav-item"><a class="nav-link" href="empresa.html">Empresa</a></li>
+                  <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                  <li class="nav-list"><a class="nav-link" href="processodefabricacao.html">Processo de Fabricação</a></li> 
+                  <li class="nav-item"><a class="nav-link" href="ORÇAMENTO/orçamento.html">Orçamento</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+              </ul>
+          </nav>
+          
+          <!--Menu Responsivo-->
+          <button class="menu-hamburguer" onclick="openMenu()">
+              <div id="line1"></div>
+              <div id="line2"></div>
+              <div id="line3"></div>
+          </button>
+          <nav class="navigation-mobile" id="menuMobile">
+              <ul class="nav-list-mobile">
+                  <li class="nav-item"><a class="nav-link" href="index.html" id="menu-inicio">Início</a></li>
+                  <li class="nav-item"><a class="nav-link" href="empresa.html">Empresa</a></li>
+                  <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                  <li class="nav-list"><a class="nav-link" href="processosdefabricacao.html">Processo de Fabricação</a></li> 
+                  <li class="nav-item"><a class="nav-link" href="ORÇAMENTO/orçamento.html">Orçamento</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+              </ul>
+          </nav>
+      </header>
+      <main>
+          <div class="titulo-home"><h1> Cerâmica Taquaralto - Empresa</h1></div>
+          <div class="img-principal-pg3"></div>
+          <button class="button-top" id="btn-voltar"><img src="IMG/seta-topo.png" alt=""></button>
+      </main>
+      
+      <main style="font-family: 'Poppins', sans-serif; width: 100%; display: flex; flex-direction: column; justify-content: center; /*align-items: center;*/ align-content: center; padding: 0 9% 2rem;">
+                    <div class="marcador">Contato</div>
+                    <table width="100%" border="0">
+                      <tr>
+                        <td width="46%" height="299" valign="top">
+                          <strong style="font-size:18px; font-weight:bold; margin-left:130px"><em>Entre em Contato Conosco</em></strong>
+                          <br/>
+                          <form id="form1" name="form1" method="post" action="index.php?id=enviar">
+                            <table width="74%" border="0" cellspacing="5" style="font-weight:bold">
+                              <tr>
+                                <td width="20%" align="right" valign="top">Nome:</td>
+                                <td width="80%"><span id="sprytextfield1">
+                                  <label for="nome"></label>
+                                  <input type="text" name="nome" id="nome" class="form" />
+                                  <span class="textfieldRequiredMsg">Obrigatório.</span></span>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="right" valign="top">E-mail:</td>
+                                <td><span id="sprytextfield2">
+                                  <label for="email"></label>
+                                  <input type="text" name="email" id="email" class="form" />
+                                  <span class="textfieldRequiredMsg">Obrigatório.</span><span class="textfieldInvalidFormatMsg">Inválido.</span></span></td>
+                              </tr>
+                              <tr>
+                                <td align="right" valign="top">Telefone:</td>
+                                <td><span id="sprytextfield3">
+                                  <label for="telefone"></label>
+                                  <input type="text" name="telefone" id="telefone" class="form" />
+                                  <span class="textfieldRequiredMsg">Obrigatório.</span></span></td>
+                              </tr>
+                              <tr>
+                                <td align="right" valign="top">Setor:</td>
+                                <td><span id="spryselect1">
+                                  <label for="setor"></label>
+                                  <select name="setor" id="setor" class="form">
+                                    <option value="comercial@ceramicataquaralto.com.br">Comercial</option>
+                                    <option value="financeiro@ceramicataquaralto.com.br">Financeiro</option>
+                                  </select>
+                                  <span class="selectRequiredMsg">Obrigatório.</span></span></td>
+                              </tr>
+                              <tr>
+                                <td align="right" valign="top">Mensagem:</td>
+                                <td><label for="mensagem"></label>
+                                  <textarea name="mensagem" id="mensagem" cols="45" rows="5" class="form"></textarea></td>
+                              </tr>
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td><input type="submit" name="enviar" id="enviar" value=" Enviar " style="background-color:#FFF; border:1px solid #006600" /></td>
+                              </tr>
+                            </table>                                    
+                          </form>
+                        </td>
+                        <td width="1%" valign="top">
+                          <p><img src="images/separador.png" width="6" height="250" /></p>
+                        </td>
+                        <td width="53%" valign="top">
+                          <table width="100%" border="0" cellspacing="5">
+                            <tr>
+                              <td width="16%" height="83" align="center" valign="top"><img src="IMG/icones de localização.png" width="58" height="48" /></td>
+                              <td width="84%" valign="middle"><strong><em>Nosso Endereço:<br />
+                                Chacará 1 -  Projeto São João I -  Porto Nacional -  <br />
+                                Tocantins - CEP: 77250 - 000.</em></strong></td>
+                            </tr>
+                            <tr>
+                              <td height="74" align="center" valign="top"><img src="IMG/telephone.svg" width="49" height="59" /></td>
+                              <td valign="middle"><strong><em>Fone: (63) 98444 9435<br />
+                              Whats: (63) 99289 6636 / (63) 99289 6636</em></strong></td>
+                            </tr>
+                            <tr align="center">
+                              <td height="40" colspan="2" align="left" valign="top"><strong><em>ceramicataquaralto@gmail.com</em></strong></td>
+                              </tr><tr>
+                              <td align="center" valign="top"><a href="https://m.facebook.com/story.php?story_fbid=pfbid0fGkPaLgRPKSAiFxrwUUnS4CrGhXVmwZGHtE1MqQSvHTUEYrzfj3A9wQ44Y66nzRfl&id=100047503241414&mibextid=Nif5oz" target="_blank"><img src="img/iconFace.png" width="53" height="65" border="0" /></a></td>
+                              <td valign="middle"><strong><em>Curta nossa página no facebook e fique por dentro das novidades.</em></strong></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+      </main>
+      <section class="secao1-pg3">
+        <h2>Cerâmica <span> Taquaralto</span></h2>
+      </section>  
+
+      <footer>
+
+        <div>
+              <h2>Cerâmica Taquaralto - Desenvolvimento Sustentável</h2>
+          </div>
+  
+          <ul class="social-links">
+              <li><a href="https://m.facebook.com/story.php?story_fbid=pfbid0fGkPaLgRPKSAiFxrwUUnS4CrGhXVmwZGHtE1MqQSvHTUEYrzfj3A9wQ44Y66nzRfl&id=100047503241414&mibextid=Nif5oz" target="_blank"><img src="IMG/facebook.png" alt="Ícone Facebook"></a></li>
+              <li><a href="https://www.instagram.com/costa_rica_ods9/" target="_blank"><img src="IMG/instagram.png" alt="Ícone Instagram"></a></li>
+              <li><a href="https://www.instagram.com/ceramicataquaraltopalmas/" target="_blank"><img src="IMG/twitter.png" alt="Ícone Twitter"></a></li>
+          </ul>     
+              <small>Cerâmica Taquaralto&copy;Todos os direitos reservados.</small>
+              <small>Desenvolvido - Lucas Candido Quintanilha - 2023</small>
+      </footer>
+      
+      <script src="JS/script.js"></script>
+  </body>
+  </html>
